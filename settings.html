@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Impostazioni - Shopify Automation Tool</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="header">
+        <h1>Impostazioni</h1>
+        <div class="header-buttons">
+            <button id="backButton" class="secondary-button">← Torna indietro</button>
+        </div>
+    </div>
+
+    <main>
+        <div class="settings-section">
+            <form id="settingsForm">
+                <div class="form-group">
+                    <label for="shopify_domain">Dominio Shopify:</label>
+                    <input type="text" id="shopify_domain" name="shopify_domain">
+                </div>
+                <div class="form-group">
+                    <label for="shopify_token">Token Shopify:</label>
+                    <input type="password" id="shopify_token" name="shopify_token">
+                </div>
+                <div class="form-group">
+                    <label for="shopify_api_key">API Key Shopify:</label>
+                    <input type="password" id="shopify_api_key" name="shopify_api_key">
+                </div>
+                <div class="form-group">
+                    <label for="shopify_api_secret">API Secret Shopify:</label>
+                    <input type="password" id="shopify_api_secret" name="shopify_api_secret">
+                </div>
+                <div class="form-group">
+                    <label for="openai_api_key">API Key OpenAI:</label>
+                    <input type="password" id="openai_api_key" name="openai_api_key">
+                </div>
+                <div class="form-group">
+                    <label for="serpapi_key">API Key SerpAPI:</label>
+                    <input type="password" id="serpapi_key" name="serpapi_key">
+                </div>
+                <div class="form-group">
+                    <label for="image_storage_path">Percorso Immagini:</label>
+                    <input type="text" id="image_storage_path" name="image_storage_path">
+                    <button type="button" id="browseImagesButton" class="secondary-button">Sfoglia</button>
+                </div>
+                <button type="submit" class="primary-button">Salva Impostazioni</button>
+            </form>
+        </div>
+        <div id="message" class="message"></div>
+    </main>
+
+    <script src="settings.js"></script>
+</body>
+</html> 

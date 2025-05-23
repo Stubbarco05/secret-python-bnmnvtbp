@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopify Automation Tool</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="header">
+        <h1>Shopify Automation Tool</h1>
+        <div class="header-buttons">
+            <button id="settingsButton" class="secondary-button">⚙️ Impostazioni</button>
+            <button id="checkPricesButton" class="secondary-button">Check Missing Prices</button>
+        </div>
+    </div>
+
+    <main>
+        <section class="input-section">
+            <h2>Inserisci Brand e Profumi</h2>
+            <textarea id="input" placeholder="chanel:
+bleu de chanel
+number 5
+dior:
+sauvage
+homme intense"></textarea>
+            <div class="button-group">
+                <button id="submit" class="primary-button">Avvia Analisi e Aggiornamento</button>
+            </div>
+        </section>
+
+        <section class="operations-section">
+            <h2>Operazioni in Corso</h2>
+            <table id="operationsTable">
+                <thead>
+                    <tr>
+                        <th>Orario</th>
+                        <th>Operazione</th>
+                        <th>Stato</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Le righe verranno aggiunte dinamicamente -->
+                </tbody>
+            </table>
+        </section>
+
+        <div id="output" class="output-section"></div>
+    </main>
+
+    <script src="renderer.js"></script>
+</body>
+</html> 

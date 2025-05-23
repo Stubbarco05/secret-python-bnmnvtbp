@@ -1,0 +1,15 @@
+{
+  "name": "shopify-automation-tool",
+  "version": "1.0.0",
+  "description": "Tool per l'automazione di Shopify",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "electron": "^28.0.0"
+  }
+}
