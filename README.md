@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Shopify Automation
 
 Un'applicazione Electron per l'automazione di processi Shopify.
@@ -60,3 +61,8 @@ npm start
 ## Licenza
 
 MIT 
+=======
+# secret-python-bnmnvtbp
+
+[Edit in StackBlitz next generation editor ⚡️](https://stackblitz.com/~/github.com/Stubbarco05/secret-python-bnmnvtbp)
+>>>>>>> 93fa16a3ab41d1b063ca5439c554920a806252c4

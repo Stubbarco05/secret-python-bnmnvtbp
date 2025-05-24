@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Dependencies
 node_modules/
 package-lock.json
@@ -30,3 +31,6 @@ __pycache__/
 env/
 venv/
 ENV/ 
+=======
+node_modules
+>>>>>>> 93fa16a3ab41d1b063ca5439c554920a806252c4
